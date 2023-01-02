@@ -1,0 +1,13 @@
+{
+  "name": "componentDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^3.8.1"
+  },
+  "scripts": {
+    "dev": "rollup -i src/index.js -o dist/bundle.js -f es",
+    "rc":"rollup -c"
+  }
+}

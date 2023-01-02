@@ -1,0 +1,9 @@
+{
+  "name": "componentDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^3.8.1"
+  }
+}

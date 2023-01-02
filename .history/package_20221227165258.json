@@ -1,0 +1,25 @@
+{
+  "name": "componentDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "postcss": "^8.4.20",
+    "rollup": "^3.8.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "scripts": {
+    "dev": "rollup -i src/index.js -o dist/bundle.js -f es",
+    "rc": "rollup -c"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie < 8",
+    "last 2 versions",
+    "> 1%",
+    "iOS 7",
+    "last 3 iOS versions"
+  ]
+}
